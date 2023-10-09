@@ -1,2 +1,6 @@
 # ignore .bk file
 *.bk
+
+# ignore yml file (except sample yml file)
+taxes/deduct/yml/income.yml
+taxes/deduct/yml/tax.yml
