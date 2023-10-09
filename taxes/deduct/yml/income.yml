@@ -1,0 +1,83 @@
+---
+jan:
+  month_income: 
+    income: xxx
+    health_insurance: xxx
+    employees_pension: xxx
+    employee_insurance: xxx
+feb:
+  month_income: 
+    income: xxx
+    health_insurance: xxx
+    employees_pension: xxx
+    employee_insurance: xxx
+mar: 
+  month_income: 
+    income: xxx
+    health_insurance: xxx
+    employees_pension: xxx
+    employee_insurance: xxx
+apr: 
+  month_income: 
+    income: xxx
+    health_insurance: xxx
+    employees_pension: xxx
+    employee_insurance: xxx
+  bonus: 
+    income: xxx
+    health_insurance: xxx
+    employees_pension: xxx
+    employee_insurance: xxx
+may: 
+  month_income: 
+    income: xxx
+    health_insurance: xxx
+    employees_pension: xxx
+    employee_insurance: xxx
+jun: 
+  month_income: 
+    income: xxx
+    health_insurance: xxx
+    employees_pension: xxx
+    employee_insurance: xxx
+jul: 
+  month_income: 
+    income: xxx
+    health_insurance: xxx
+    employees_pension: xxx
+    employee_insurance: xxx
+aug: 
+  month_income: 
+    income: xxx
+    health_insurance: xxx
+    employees_pension: xxx
+    employee_insurance: xxx
+sep: 
+  month_income: 
+    income: xxx
+    health_insurance: xxx
+    employees_pension: xxx
+    employee_insurance: xxx
+oct:
+  month_income:
+    income:  
+    health_insurance: xxx
+    employees_pension: xxx
+    employee_insurance: xxx
+  bonus:
+    income:  
+    health_insurance: xxx
+    employees_pension: xxx
+    employee_insurance: xxx
+nov:
+  month_income:
+    income:  
+    health_insurance: xxx
+    employees_pension: xxx
+    employee_insurance: xxx
+dec:
+  month_income:
+    income:  
+    health_insurance: xxx
+    employees_pension: xxx
+    employee_insurance: xxx

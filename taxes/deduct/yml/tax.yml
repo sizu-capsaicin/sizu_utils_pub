@@ -1,0 +1,19 @@
+income_line_for_year_end_adjustment: 6600000
+rules_for_year_end_adjustment:
+  - conditions: [xxx, xxx]
+    income: xxx
+rules_for_basic_allowance:
+  - conditons: [0, 24000000]
+    deduct: 480000
+  - conditions: [24000000, 24500000]
+    deduct: 320000
+  - conditions: [24500000, 25000000]
+    deduct: 160000
+  - conditions: [25000000, None]
+    deduct: 0
+rules_for_income_tax:
+  - conditions: [1000, 1949000]
+    tax_ratio: 0.05
+    deduct: 0
+additional_payment:
+  social_insurance: 0
