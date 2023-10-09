@@ -15,5 +15,10 @@ rules_for_income_tax:
   - conditions: [1000, 1949000]
     tax_ratio: 0.05
     deduct: 0
+rules_for_resident_tax:
+  tax_ratio: xxx
+  tax_per_capita:
+    prefectual_tax: xxx
+    municipal_tax: xxx
 additional_payment:
   social_insurance: 0
