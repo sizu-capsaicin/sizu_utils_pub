@@ -1,4 +1,5 @@
 import yaml
+import argparse
 
 
 def load_income_yml(income_yml_path):
@@ -131,10 +132,29 @@ def calc_resident_tax(income, rules_for_resident_tax):
             rules_for_resident_tax['tax_per_capita']['prefectual_tax'] + \
             rules_for_resident_tax['tax_per_capita']['municipal_tax']
 
+def get_args():
+    """
+    """
+
+    parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
+
+    parser.add_argument('yml_dir', help='yaml directory path\nyaml ファイルが置いてあるディレクトリまでの相対パス')
+
+    example = '''
+Example:
+    python3 taxes/deduct/deduct.py taxes/deduct/yml/
+    python3 deduct.py yml/
+'''
+    parser.epilog = example
+
+    return parser.parse_args()
+
 
 if __name__ == "__main__":
-    income, social_insurance = load_income_yml('yml/income.yml')
-    tax, deduct_add_payment = load_tax_yml('yml/tax.yml')
+    args = get_args()
+
+    income, social_insurance = load_income_yml(args.yml_dir + '/income.yml')
+    tax, deduct_add_payment = load_tax_yml(args.yml_dir + '/tax.yml')
 
     if deduct_add_payment is not None:
         if 'social_insurance' in deduct_add_payment:
