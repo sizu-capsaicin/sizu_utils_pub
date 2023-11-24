@@ -1,5 +1,5 @@
 # ignore .bk file
-*.bk
+*.bk*
 
 # ignore yml file (except sample yml file)
 income.yml
